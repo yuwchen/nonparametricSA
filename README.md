@@ -33,6 +33,7 @@ Please refer to the files in the txtfile directory for examples.
 python build_dataset.py --rootdir /path/to/wavfile/dir/ --traintxt /path/to/train_list.txt
 ```
 Datastore will store in a directory named "faiss_database"
+
 ------------
 ### Run assessment
 ```
