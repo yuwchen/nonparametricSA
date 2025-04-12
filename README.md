@@ -1,4 +1,4 @@
-# nonparametricSA
+# Adaptable non-parametric Approach for Speech-based Symptom Assessment: Isolating Private Medical Data in a Retrieval Datastore
 
 
 ### Environment
