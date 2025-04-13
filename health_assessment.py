@@ -156,7 +156,7 @@ def main():
 
                 # Profile-aware refinement was not applied to the Coswara dataset.
                 """
-                if the_age != 3:
+                if the_age != 3: #skip the refinement if the age is unknown.
                     filtered_retrieved_doc = retrieved_doc[
                         retrieved_doc["age"] == the_age
                     ]
@@ -174,8 +174,9 @@ def main():
                 )
                 retrieved_doc = faiss_info_uttr_re[l_idx].iloc[retrieved_idx[0]]
 
+                # Profile-aware refinement was not applied to the Coswara dataset.
                 """
-                if the_age != 3:
+                if the_age != 3: 
                     filtered_retrieved_doc = retrieved_doc[
                         retrieved_doc["age"] == the_age
                     ]
