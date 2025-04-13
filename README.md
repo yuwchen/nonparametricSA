@@ -4,7 +4,7 @@ This repo is the implementation of the paper
 
 *Adaptable non-parametric Approach for Speech-based Symptom Assessment: Isolating Private Medical Data in a Retrieval Datastore*
 
- <img src="https://github.com/yuwchen/nonparametricSA/blob/main/plot/overview.png" alt="main"  width=100% height=100% />
+ <img src="plot/overview.png" alt="main"  width=100% height=100% />
 
 
 ### Environment
