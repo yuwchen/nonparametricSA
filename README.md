@@ -47,6 +47,6 @@ python health_assessment.py --rootdir /path/to/wavfile/ --testtxt /path/to/test_
 ```
 
 ### Limitation
-- The results may differ slightly from those reported in the paper, likely due to KMeans randomness and floating-point precision."
-- The datastore from one dataset cannot generalize to another because the samples in the two datasets consist of speakers uttering different sentences.
+- The results may differ slightly from those reported in the paper, likely due to KMeans randomness and floating-point precision.
+- The datastore from one dataset cannot generalize to another because the specific sentences spoken differ across the two and both sentences are short.
 
